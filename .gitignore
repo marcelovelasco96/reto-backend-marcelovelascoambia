@@ -1,0 +1,6 @@
+﻿# Java / Maven
+target/
+*.iml
+.idea/
+*.log
+.DS_Store
