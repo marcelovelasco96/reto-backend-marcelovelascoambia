@@ -1,0 +1,31 @@
+{
+  "info": {
+    "name": "Order API",
+    "_postman_id": "2b3f6a0e-3a5a-4a5e-9a6f-123456789abc",
+    "description": "Colección mínima para crear órdenes contra order-service en localhost:8080.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /orders - Create Order",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"orderId\": \"ORD1\",\n  \"customerId\": \"C1\",\n  \"items\": [ { \"productId\": \"P1\", \"quantity\": 1 } ],\n  \"totalAmount\": 1\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/orders",
+          "protocol": "http",
+          "host": [ "localhost" ],
+          "port": "8080",
+          "path": [ "orders" ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
