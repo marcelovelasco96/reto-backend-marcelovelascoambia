@@ -32,3 +32,11 @@ docker run -d --name reto-backend-azurite-1 ^
 - **Scrum (markdown)**: [docs/scrum.md](docs/scrum.md)
 - **Scrum (Excel)**: [docs/Formto%20scrum.xlsx](docs/Formto%20scrum.xlsx)
 - **Postman collection**: [postman/Order-API.postman_collection.json](postman/Order-API.postman_collection.json)
+
+## Documentación
+- [Arquitectura (alto nivel)](docs/architecture.md)
+- [Scrum – Historias y DoD](docs/scrum.md)
+- [Scrum (Excel)](docs/Formto%20scrum.xlsx)
+- [Postman collection](postman/Order-API.postman_collection.json)
+
+
